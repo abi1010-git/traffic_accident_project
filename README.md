@@ -138,18 +138,3 @@ app.py
 
 Streamlit will install packages from `requirements.txt`, run `app.py`, and give you a public URL ending in `.streamlit.app`.
 
-## Run The Notebook
-
-1. Open `notebooks/analysis.ipynb` in VS Code.
-2. Select the project virtual environment as the notebook kernel.
-3. Run the notebook cells from top to bottom.
-
-The notebook loads the first `.csv`, `.xlsx`, or `.xls` file it finds in `data/`.
-
-## Save Changes To GitHub
-
-```powershell
-git add .
-git commit -m "Update traffic accident dashboard"
-git push
-```
