@@ -2,6 +2,8 @@
 
 This project analyzes traffic accident data with Python and presents the results in an interactive Streamlit dashboard. It includes both a Jupyter notebook for exploration and a web app for filtering, charting, mapping, and downloading accident records.
 
+Live app: `https://analyzetrafficaccidentdata.streamlit.app/`
+
 ## Features
 
 - Load the included NYC traffic accident sample dataset.
@@ -103,6 +105,12 @@ docker run -d --name traffic-accident-dashboard -p 8501:8501 traffic-accident-da
 ## Deploy As A Public App
 
 The easiest way to make this usable without VS Code is to deploy it on Streamlit Community Cloud. After deployment, anyone can open the dashboard from a normal website link.
+
+Current deployed app:
+
+```text
+https://analyzetrafficaccidentdata.streamlit.app/
+```
 
 1. Commit and push this project to GitHub.
 2. Go to `https://share.streamlit.io`.
