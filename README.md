@@ -2,7 +2,7 @@
 
 This project analyzes traffic accident data with Python and presents the results in an interactive Streamlit dashboard. It includes both a Jupyter notebook for exploration and a web app for filtering, charting, mapping, and downloading accident records.
 
-Live app: `https://analyzetrafficaccidentdata.streamlit.app/`
+Live app: https://analyzetrafficaccidentdata.streamlit.app/
 
 ## Features
 
