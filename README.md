@@ -100,6 +100,36 @@ docker rm traffic-accident-dashboard
 docker run -d --name traffic-accident-dashboard -p 8501:8501 traffic-accident-dashboard
 ```
 
+## Deploy As A Public App
+
+The easiest way to make this usable without VS Code is to deploy it on Streamlit Community Cloud. After deployment, anyone can open the dashboard from a normal website link.
+
+1. Commit and push this project to GitHub.
+2. Go to `https://share.streamlit.io`.
+3. Sign in with GitHub.
+4. Click `Create app`.
+5. Choose this repository:
+
+```text
+abi1010-git/traffic_accident_project
+```
+
+6. Set the branch to:
+
+```text
+main
+```
+
+7. Set the app file path to:
+
+```text
+app.py
+```
+
+8. Click `Deploy`.
+
+Streamlit will install packages from `requirements.txt`, run `app.py`, and give you a public URL ending in `.streamlit.app`.
+
 ## Run The Notebook
 
 1. Open `notebooks/analysis.ipynb` in VS Code.
